@@ -1,1 +1,1 @@
-[https://Deeamon.github.io/rsschool-2019Q1-cv/cv](https://Deeamon.github.io/rsschool-2019Q1-cv/cv.md)
+[https://Deeamon.github.io/rsschool-2019Q1-cv/cv](https://Deeamon.github.io/rsschool-2019Q1-cv/cv)
