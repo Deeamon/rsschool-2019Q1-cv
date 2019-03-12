@@ -175,22 +175,22 @@ header, main, footer{
 .wrapper main .Summary .example .list-code,
 .wrapper main .Summary .education .list-education,
 .wrapper main .Summary .english .list-edu{
-    width: 635px;
+    width: 647px;
     list-style: none;
     font-size: 15px;
     padding-top: 6px;
 }
 
 .wrapper main .Summary .education .list-education{
-    width: 681px;
+    width: 700px;
 }
 
 .wrapper main .Summary .example .list-code{
-    width: 655px;
+    width: 665px;
 }
 
 .wrapper main .Summary .english .list-edu{
-    width: 674px;
+    width: 681px;
 }
 
 .wrapper main .Summary .example .list-code li a {
@@ -229,7 +229,12 @@ header, main, footer{
 }
 .wrapper main .Summary .education .list-education li .period,
 .wrapper main .Summary .english .list-edu li .period{
-    font-size: 12px;
+    font-size: 12px; 
+    opacity: 0.5;
+}
+
+.wrapper main .Summary .english .list-edu li .add-info{
+    font-size: 15px; 
 }
 
 .wrapper main .Summary .education .list-education li h3 a,
