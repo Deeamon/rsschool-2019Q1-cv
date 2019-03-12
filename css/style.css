@@ -4,6 +4,7 @@
     font-style: normal;
     font-weight: normal;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -34,8 +35,7 @@ header, main, footer{
     background-repeat: no-repeat;
     background-position: -19px -3px;
     background-size: 109%;
-    margin: 20px 58px 0 0;
-    
+    margin: 20px 58px 0 0;   
 }
 
 .wrapper header .mainInfo,
@@ -128,8 +128,7 @@ header, main, footer{
     text-decoration: none;
     font-size: 12px;
     color: #fcfbf9;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;   
 }
 
 .wrapper main .Summary,
@@ -207,8 +206,7 @@ header, main, footer{
 
 .wrapper main .Summary .level-of-skills .range-skills li span{
     font-weight: bold;
-    letter-spacing: 1px;
-    
+    letter-spacing: 1px;   
 }
 
 .wrapper main .Summary .education .list-education li,
@@ -241,26 +239,4 @@ header, main, footer{
     text-transform: uppercase;
 }
 
-/* 
-
-
-
-main .level-of-skills{
-    width: 1024px;
-    height: 500px;
-    background-color: red;
-
-} */
-
-/* main .Skills .levelOfSkills{
-    width: 600px;
-    color: #c2bfbb;
-    font-family: "Maven Pro Regular";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    margin: 0;
-    text-align: justify;
-
-} */
 
