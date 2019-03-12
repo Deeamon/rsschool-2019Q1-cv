@@ -1,0 +1,247 @@
+@font-face{
+    font-family: "Maven Pro Regular";
+    src: url("../assets/fonts/maven-pro/MavenPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{ 
+    width: 1024px;
+    background-color: #31302c;
+    margin: 0 auto;
+    font-family: "Maven Pro Regular";
+    font-style: normal;
+    font-weight: normal;
+    color: #c2bfbb;
+}
+
+header, main, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.wrapper header .photo{
+    border: 5px solid #f7b22a;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url(../assets/images/photo.jpg);
+    background-repeat: no-repeat;
+    background-position: -19px -3px;
+    background-size: 109%;
+    margin: 20px 58px 0 0;   
+}
+
+.wrapper header .mainInfo,
+.wrapper footer .mainInfo{
+    width: 500px;
+    min-height: 100px; 
+    padding-top: 24px;
+}
+
+.wrapper footer .mainInfo{
+    width: 700px;
+}
+
+.wrapper header .mainInfo .name,
+.wrapper header .mainInfo .surname { 
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.wrapper header .mainInfo .name {
+    color: #fcfbf9;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 22px;
+    line-height: 25px;
+    
+}
+
+.wrapper header .mainInfo .surname{
+    color: #f7b22a;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px; 
+    letter-spacing: 10px;  
+}
+
+.wrapper header .mainInfo .social,
+.wrapper header .mainInfo .contact,
+.wrapper footer .mainInfo .social,
+.wrapper footer .mainInfo .contact{
+    list-style: none;
+    color: #4d483f;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper header .mainInfo .social li,
+.wrapper footer .mainInfo .social li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.wrapper header .mainInfo .social li a,
+.wrapper footer .mainInfo .social li a{
+    text-decoration: none;
+    color: #4d483f; 
+}
+
+.wrapper header .mainInfo .social li a:hover,
+.wrapper header .mainInfo .contact li a:hover,
+.wrapper footer .mainInfo .social li a:hover,
+.wrapper footer .mainInfo .contact li a:hover{
+    color: #f7b22a;
+}
+
+.wrapper header .mainInfo .social li i,
+.wrapper footer .mainInfo .social li i{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.wrapper header .mainInfo .contact,
+.wrapper footer .mainInfo .contact{
+    color: #fcfbf9;
+    justify-content: space-between;
+    border-top: 2px solid #f7b22a;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.wrapper footer .mainInfo .contact{
+    justify-content: space-around; 
+}
+
+.wrapper header .mainInfo .contact li a,
+.wrapper footer .mainInfo .contact li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fcfbf9;
+    letter-spacing: 1px;   
+}
+
+.wrapper main .Summary,
+.wrapper main .Summary .level-of-skills{
+    margin-top: 45px;
+}
+
+.wrapper main .Summary .SummaryDescription,
+.wrapper main .Summary .level-of-skills,
+.wrapper main .Summary .example,
+.wrapper main .Summary .education,
+.wrapper main .Summary .english{
+    width: 800px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center; 
+}
+
+.wrapper main .Summary .SummaryDescription h2,
+.wrapper main .Summary .level-of-skills h2,
+.wrapper main .Summary .example h2,
+.wrapper main .Summary .education h2,
+.wrapper main .Summary .english h2 {
+    color: #f7b22a;
+    font-weight: bold;
+    font-size: 21px;
+    padding-right: 20px;
+    text-align: right;  
+}
+
+.wrapper main .Summary .example .expl{
+    font-size: 17px;     
+}
+
+.wrapper main .Summary .SummaryDescription p{
+    color: #c2bfbb;
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 6px;
+}
+
+
+.wrapper main .Summary .level-of-skills .range-skills,
+.wrapper main .Summary .example .list-code,
+.wrapper main .Summary .education .list-education,
+.wrapper main .Summary .english .list-edu{
+    width: 647px;
+    list-style: none;
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+.wrapper main .Summary .education .list-education{
+    width: 700px;
+}
+
+.wrapper main .Summary .example .list-code{
+    width: 665px;
+}
+
+.wrapper main .Summary .english .list-edu{
+    width: 681px;
+}
+
+.wrapper main .Summary .example .list-code li a {
+    color: #fcfbf9;
+    text-decoration: none;
+}
+
+.wrapper main .Summary .example .list-code li a:hover,
+.wrapper main .Summary .education .list-education li h3 a:hover,
+.wrapper main .Summary .english .list-edu li h3 a:hover{
+    color: #f7b22a;
+}
+
+.wrapper main .Summary .level-of-skills .range-skills li span{
+    font-weight: bold;
+    letter-spacing: 1px;   
+}
+
+.wrapper main .Summary .education .list-education li,
+.wrapper main .Summary .english .list-edu li{
+    border-left: 3px solid #4d483f;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.wrapper main .Summary .education .list-education li:hover,
+.wrapper main .Summary .english .list-edu li:hover{
+    border-color: #f7b22a; 
+}
+
+.wrapper main .Summary .education .list-education li .period,
+.wrapper main .Summary .education .list-education li .info,
+.wrapper main .Summary .english .list-edu li .info{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.wrapper main .Summary .education .list-education li .period,
+.wrapper main .Summary .english .list-edu li .period{
+    font-size: 12px; 
+    opacity: 0.5;
+}
+
+.wrapper main .Summary .english .list-edu li .add-info{
+    font-size: 15px; 
+}
+
+.wrapper main .Summary .education .list-education li h3 a,
+.wrapper main .Summary .english .list-edu li h3 a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+
