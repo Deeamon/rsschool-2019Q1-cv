@@ -131,7 +131,9 @@ header, main, footer{
     letter-spacing: 1px;
     
 }
-.wrapper main .Summary{
+
+.wrapper main .Summary,
+.wrapper main .Summary .level-of-skills{
     margin-top: 45px;
 }
 
@@ -167,10 +169,6 @@ header, main, footer{
     font-size: 15px;
     text-align: justify;
     padding-top: 6px;
-}
-
-.wrapper main .Summary .level-of-skills{
-    margin-top: 45px;
 }
 
 
